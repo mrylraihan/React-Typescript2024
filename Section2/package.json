@@ -4,8 +4,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ts": "npx tsc app.ts",
-    "start": "node app.js"
+    "ts": "npx tsc specificTypes.ts",
+    "start": "node specificTypes.js"
   },
   "keywords": [],
   "author": "",
