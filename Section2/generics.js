@@ -76,3 +76,14 @@ function merge(a, b) {
 }
 var combined1 = merge({ username: "mike123" }, { address: "123 street" });
 console.log(combined1);
+var PlayStation;
+PlayStation = {
+    name: "PlayStation",
+    price: 500
+};
+console.log(PlayStation);
+function TurnOn(a) {
+    return "Turning on ".concat(a);
+}
+var startPS5 = TurnOn('playstation');
+console.log(startPS5);

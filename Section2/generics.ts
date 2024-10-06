@@ -86,3 +86,23 @@ function merge<T,U>(a:T, b:U){
 let combined1 = merge<User, {address:string}>({username:"mike123"}, {address:"123 street"})
 console.log(combined1)
 
+
+type System<T,U> = {
+    name:T,
+    price:U
+}
+
+let PlayStation:System<string, number>
+PlayStation={
+    name:"PlayStation",
+    price:500
+}
+
+console.log(PlayStation)
+
+function TurnOn<T>(a:T){
+    return `Turning on ${a}`
+}
+
+let startPS5 = TurnOn<string>('playstation')
+console.log(startPS5)
