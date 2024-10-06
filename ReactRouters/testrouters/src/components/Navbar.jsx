@@ -8,6 +8,7 @@ function Navbar() {
         <ul>
             <Link to='/'><li>Home</li></Link>
             <Link to='/post'><li>Post</li></Link>
+            <Link to='/parent'><li>Nested Routes Example</li></Link>
          
         </ul>
     </div>
